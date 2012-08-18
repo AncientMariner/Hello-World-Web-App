@@ -1,0 +1,47 @@
+html, body {
+    background-color: #F4F1F3;
+}
+
+body {
+    padding-top: 110px;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.container > .content {
+    background-color: #E1E1E1;
+    padding: 20px;
+    margin: 0 auto;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+
+.height {
+    height: 28px;
+}
+
+.formField, span {
+    color: #f20000;
+    font-size: 10px;
+}
+
+.login-form {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.permitter {
+    background-image: url("../img/not_allowed-sign.png");
+}
+
+.align-center {
+    text-align: center;
+}
+

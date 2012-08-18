@@ -1,0 +1,30 @@
+Hi dear User of the program,
+
+Here is simple documentation about how to run and use the application. Please read carefully.
+
+Prerequisites:
+
+	1. Maven
+	2. Jetty web server (6x), Tomcat(6x) is also suitable
+
+Run:
+
+	1. Go to root directory of the project
+	2. Do mvn clean install
+	3. Do mvn jetty:run
+	4. Go to localhost:8080/HelloWTO/
+	5. Login page is opened
+
+Usage:
+
+    1. You need register your user (User name should be at least 3 characters to 25 characters)
+    2. Enter valid password and confirm it (Password should be at least 5 characters to 25 characters and should contain at least 1 digit, 1 uppercase, 1 lowercase, 1 specific symbol)
+    3. Login with registered user
+    4. Observe Hello Page
+    (the page is restricted for unauthorized users)
+    5. Do logout and close the application
+
+In case of any additional questions or bugs - please feel free to contact me by mail - xander.lysak@gmail.com
+I would be glad to hear your impressions.
+
+Alexander
